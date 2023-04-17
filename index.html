@@ -215,23 +215,35 @@
 					<legend>What date do you want to time travel to?</legend>
 					<input type="date">
 				</fieldset>
+
+
 				<fieldset>
 					<legend>Which member is most likely to go rogue?</legend>
-					<label for="rogue">Choose a person:</label>
-					<input list="roguelist" id="rogue" name="rogue">
-
-					<datalist id="roguelist">
-   						<option value="Quinn Stevenson">
-    					<option value="Alex Climber">
-    					<option value="Tessa Smith">
-    					<option value="Gilles Murillo">
-    					<option value="Kai Kurusu">
+					<select name="colors" id="color-select">
+						<option value="quinn">Quinn Stevenson</option>
+						<option value="alex">Alex Climber</option>
+						<option value="tessa">Tessa Smith</option>
+						<option value="gilles">Gilles Murillo</option>
+						<option value="kai">Kai Kurusu</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>What is your favorite color?</legend>
+					<input list="colorlist" id="colors" name="colors">
+					<datalist id="colorlist">
+						<option value="Red">
+						<option value="Orange">
+						<option value="Yellow">
+						<option value="Green">
+						<option value="Blue">
+						<option value="Purple">
 					</datalist>
 				</fieldset>
 				<fieldset>
 					<legend>Any concerns?</legend>
 					<textarea name="" id="" cols="80" rows="10">Type here</textarea>
 				</fieldset>
+				<button type="submit">Submit</button>
 				
 			</form>
 		</section>
