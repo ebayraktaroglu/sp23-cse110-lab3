@@ -1,1 +1,1 @@
-# Lab 2 - Starter
+[Meeting Minutes](https://ebayraktaroglu.github.io/Lab2/)
