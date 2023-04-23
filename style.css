@@ -1,3 +1,9 @@
 section {
 	background-color: rgba(230,200,230,1)
 }
+
+h2 {
+	color: purple;
+	text-decoration: underline;
+	text-align: center;
+}
