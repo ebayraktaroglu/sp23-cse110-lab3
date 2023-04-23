@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "EDO SZ";
+	src: url("edosz.ttf");
+}
+
 section {
 	background-color: rgba(230,200,230,1);
 	border-style: solid;
@@ -8,16 +13,32 @@ section {
 	padding-bottom: 20px;
 	padding-left: 50px;
 	padding-right: 50px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-top: 1in;
+	margin-bottom: 1in;
+	margin-left: 1in;
+	margin-right: 1in;
+}
+
+h1 {
+	font-size: 8vh;
 }
 
 h2 {
+	font-size: 6.5vh;
 	color: purple;
 	text-decoration: underline;
 	text-align: center;
+}
+
+h3 {
+	font-size: 3.5vh;
+	font-family: "EDO SZ";
+	height: 3ex;
+}
+
+h4 {
+	font-size: 2.5vh;
+	font-family: "EDO SZ";
 }
 
 video {
@@ -25,10 +46,16 @@ video {
 	border-color: hsl(333, 100%, 65%);
 	background-color: lightpink;
 	border-radius: 40px;
-	border-width: 3px;
-	padding: 30px 30px 30px 30px;
+	border-width: 5px;
+	padding: 1cm 1cm 1cm 1cm;
+	max-height: 80vh;
+	max-width: 80vw;
 }
 
 fieldset {
 	margin: 30px 30px auto auto;
+}
+
+textarea {
+	width: 50vw;
 }
