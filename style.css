@@ -14,6 +14,10 @@
 	}
 }
 
+* {
+	font-family: cursive;
+}
+
 button:hover {
 	background-color: aqua;
 }
@@ -50,15 +54,18 @@ h2 {
 	text-align: center;
 }
 
+h3,
+h4 {
+	font-family: "EDO SZ";
+}
+
 h3 {
 	font-size: 3.5vh;
-	font-family: "EDO SZ";
 	height: 3ex;
 }
 
 h4 {
 	font-size: 2.5vh;
-	font-family: "EDO SZ";
 }
 
 video {
@@ -72,7 +79,7 @@ video {
 	max-width: 80vw;
 }
 
-fieldset {
+fieldset[class="timeform"] {
 	margin: 30px 30px auto auto;
 }
 
@@ -94,8 +101,35 @@ ul {
 	column-gap: 50px;
 }
 
+ul > li{
+	color: rebeccapurple;
+}
+
 button {
 	width: 200px;
 	height: 50px;
 	font-size: 30px;
 }
+
+body em {
+	color: blue;
+}
+
+
+video + details {
+	color: darkred;
+}
+
+video ~ audio {
+	width: 350px;
+}
+
+.preservation.preservation {
+	background-color: aquamarine;
+}
+
+#copyright {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
